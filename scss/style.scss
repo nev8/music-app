@@ -71,6 +71,14 @@ a {
         color: $pink;
     }
 }
+.container {
+    width: 80%;
+    margin: auto;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 1.1;
+}
 /******************************
 Nav
 ******************************/
@@ -123,6 +131,22 @@ Header
         }
         button {
             @include btn;
+        }
+    }
+}
+/******************************
+Ulimited
+******************************/
+.unlimited {
+    padding: $padding;
+    @include flex(space-between, center, row);
+    article {
+        flex: 0 0 48%;
+        button {
+            @include btn;
+        }
+        p {
+            text-align: justify;
         }
     }
 
