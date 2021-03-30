@@ -204,3 +204,18 @@ Artists
         }
     }
 }
+/******************************
+Concept
+******************************/
+.concept {
+    @extend .artists;
+    article:last-child {
+        @include flex(space-between, flex-start, row);
+        div {
+            flex: 0 0 15%;
+            img {
+                border-radius: 50%;
+            }
+        }
+    }
+}

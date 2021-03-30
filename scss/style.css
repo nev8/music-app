@@ -280,11 +280,11 @@ HiwHeader
 /******************************
 Artists
 ******************************/
-.artists {
+.artists, .concept {
   padding: 80px 0;
 }
 
-.artists article:first-child {
+.artists article:first-child, .concept article:first-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -302,20 +302,20 @@ Artists
           flex-direction: row;
 }
 
-.artists article:first-child h2 {
+.artists article:first-child h2, .concept article:first-child h2 {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 48%;
           flex: 0 0 48%;
 }
 
-.artists article:first-child p {
+.artists article:first-child p, .concept article:first-child p {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 48%;
           flex: 0 0 48%;
   text-align: justify;
 }
 
-.artists article:last-child {
+.artists article:last-child, .concept article:last-child {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -334,15 +334,46 @@ Artists
   margin-top: 50px;
 }
 
-.artists article:last-child div {
+.artists article:last-child div, .concept article:last-child div {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 22%;
           flex: 0 0 22%;
   text-align: center;
 }
 
-.artists article:last-child div img {
+.artists article:last-child div img, .concept article:last-child div img {
   width: 100%;
   border-radius: 40px;
+}
+
+/******************************
+Concept
+******************************/
+.concept article:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.concept article:last-child div {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 15%;
+          flex: 0 0 15%;
+}
+
+.concept article:last-child div img {
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
