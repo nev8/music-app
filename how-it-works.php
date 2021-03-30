@@ -31,7 +31,7 @@
          <h2>Our Concept & artists</h2>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti corporis velit excepturi ipsam quidem nisi officiis veniam, molestiae, commodi rem. Repudiandae id officiis repellat corporis eum accusamus iusto sapiente laboriosam.
  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti corporis velit excepturi ipsam quidem nisi officiis veniam, molestiae, commodi rem. Repudiandae id officiis repellat corporis eum accusamus iusto sapiente laboriosam.</p>
-     </article>
+     </article> 
      <article>
          <div>
              <img src="img/artists1.jpg" alt="">
