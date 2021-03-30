@@ -5,19 +5,21 @@
     <article class="container">
         <div>
             <h2>Subscription from $15/month</h2>
-            <h4>Start a free trial now</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis similique iure nobis, facilis eaque, tempora exercitationem dolore esse animi quae delectus impedit perferendis ipsum, perspiciatis unde. Quae eligendi qui at.</p>
+            <h4>Start a free trial</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis similique iure nobis, facilis eaque,
+                tempora exercitationem dolore esse animi quae delectus impedit perferendis ipsum, perspiciatis unde.
+                Quae eligendi qui at.</p>
             <button>Start free trail now</button>
         </div>
-        <ul>
-        <li>Play any track</li>
-        <li>Listen offline</li>
-        <li>No add interruptions</li>
-        <li>Unlimited skips</li>
-        <li>High quality</li>
-        <li>Shuffle play</li>
-        </ul>
         <div>
+            <ul>
+                <li>Play any track</li>
+                <li>Listen offline</li>
+                <li>No add interruptions</li>
+                <li>Unlimited skips</li>
+                <li>High quality</li>
+                <li>Shuffle play</li>
+            </ul>
         </div>
     </article>
 </section>
